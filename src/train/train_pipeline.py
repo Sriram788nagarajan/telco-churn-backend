@@ -10,7 +10,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import FunctionTransformer, OneHotEncoder, StandardScaler
 from xgboost import XGBClassifier
 
-from src.core.custom_preprocessing import (
+from core.custom_preprocessing import (
     missing_handle,
     drop_useless_cols,
     internet_features,
