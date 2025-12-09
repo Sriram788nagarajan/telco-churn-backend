@@ -1,6 +1,6 @@
 from fastapi import APIRouter
-from src.schemas.predict_schema import CustomerInput
-from src.core.config import predict_single
+from schemas.predict_schema import CustomerInput
+from core.config import predict_single
 
 router = APIRouter()
 
