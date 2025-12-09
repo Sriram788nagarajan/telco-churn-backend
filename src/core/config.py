@@ -6,7 +6,7 @@ import joblib
 import pandas as pd
 
 # Important: import this so that custom_preprocessing functions are registered
-import core.custom_preprocessing  # noqa: F401
+import src.core.custom_preprocessing  # noqa: F401
 
 BASE_DIR = Path(__file__).resolve().parent.parent  # src/
 MODEL_PATH = BASE_DIR / "model" / "model.pkl"
